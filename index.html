@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abdul Basit Mir | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      scroll-behavior: smooth;
+      background-color: #f8f9fa;
+    }
+    section {
+      padding: 60px 0;
+    }
+    nav {
+      background-color: #065b1e;
+    }
+    nav a.nav-link {
+      color: #fff !important;
+    }
+    iframe {
+      border: 1px solid #ccc;
+    }
+
+    #home {
+      background-color: #e3f2fd;
+    }
+
+    #projects {
+      background-color: #f1f8e9;
+    }
+
+    #cv {
+      background-color: #fff3e0;
+    }
+
+    #contact {
+      background-color: #fce4ec;
+    }
+
+    h2 {
+      color: #006a22;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(10, 184, 190, 0.519);
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+
+    .btn-success {
+      background-color: #28a745;
+      border: none;
+    }
+
+    .form-control {
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Abdul Basit Mir</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="container mt-5 pt-5">
+  <h2 class="mb-4">Home</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="assets/My-pic.jpg" class="img-fluid rounded-circle" alt="Profile Picture">
+    </div>
+    <div class="col-md-8">
+      <h3>Abdul Basit Mir</h3>
+      <p><strong>Computer Scientist | Python Developer</strong></p>
+      <p><strong>Interests:</strong> Game Development, Systems Programming, Linux</p>
+      <p><strong>Email:</strong> abdulbasit9546@gmail.com</p>
+      <p><strong>Phone:</strong> 03334706960</p>
+      <p><strong>Address:</strong> DHA Phase 4 Street 21 (232-AA)</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2 class="mb-4">Projects</h2>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5>Space Game (3D in Python)</h5>
+        <p>: An asteroid game that you destroy while controlling a ship using
+lasers, there are levels and high score management</p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5>University Management System</h5>
+        <p>: Utilized my skills to implement University Management System,
+            Theatre Management System and Music Playlist
+            </p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5>Car Rental System</h5>
+        <p>Car Quantity, Dynamic pricing models based on car types and
+rental duration, Management of car quantities and types, Calculation and application of taxes on
+insurance.
+</p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5>Ticketing System</h5>
+        <p>Efficient ticket allocation using DSA-based backend logic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CV -->
+<section id="cv">
+  <div class="container">
+    <h2 class="mb-4">Curriculum Vitae</h2>
+    <iframe src="assets/My-resume.pdf" width="100%" height="600px"></iframe>
+    <a href="assets/My-resume.pdf" download class="btn btn-primary mt-3">Download CV</a>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <h2 class="mb-4">Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" class="form-control" placeholder="Your Email">
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <input type="text" class="form-control" placeholder="Subject">
+      </div>
+      <div class="form-group">
+        <label>Project Details</label>
+        <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
